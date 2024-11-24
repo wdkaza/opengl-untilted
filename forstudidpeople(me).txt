@@ -1,0 +1,5 @@
+g++ src/main.cpp src/glad.c src/shaderClass.cpp src/VAO.cpp src/VBO.cpp src/EBO.cpp src/stb.cpp -o main -Iinclude -IHeaderFiles -lglfw -lGL -ldl
+g++ src/main.cpp src/glad.c -Iinclude -lglfw -lGL -ldl
+
+
+vertex buffer objects (VBO)
